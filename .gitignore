@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+reference/
+results/transcripts/
+results/*.pt
+*.pt
+.DS_Store
+.env
