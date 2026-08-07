@@ -28,7 +28,7 @@ CAPS = {"direct": 64, "cot": 768}
 
 
 def run(args) -> None:
-    from scripts.phase0 import load_everything
+    from scripts.gates import load_everything
     from src.eval_harness import load_problems, run_cell, summarize_cell
 
     model, tok, lens = load_everything(args.lens, args.model)

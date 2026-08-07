@@ -95,7 +95,7 @@ def stimulus_window(tok, prefix: str, stimulus: str, n: int = 5) -> tuple[torch.
 
 
 def part_a(model, tok, lens, smoke: bool) -> list[dict]:
-    from src.phase0 import _single_token_ids, fetch_official_eval
+    from src.gates import _single_token_ids, fetch_official_eval
 
     items = fetch_official_eval("multihop")["items"]
     if smoke:
@@ -294,7 +294,7 @@ def main() -> None:
     parser.add_argument("--smoke", action="store_true")
     args = parser.parse_args()
 
-    from scripts.phase0 import load_everything
+    from scripts.gates import load_everything
 
     model, tok, lens = load_everything(args.lens, args.model)
     os.makedirs(RESULTS, exist_ok=True)

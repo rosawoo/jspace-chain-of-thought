@@ -5,7 +5,7 @@ Gate A: workspace-band statistics (readout kurtosis, next-token agreement,
 Gate B: two-hop positive control on the paper's multihop eval set.
 Gate C: numeric-loading audit (share of would-be-ablated slots that are
         numeric during direct math).
-Gate D: operating-point sweep is driven by scripts/phase0.py using the
+Gate D: operating-point sweep is driven by scripts/gates.py using the
         coherence battery here plus generation via src.ablate.
 
 All functions take an already-loaded HF model + tokenizer + LensSpace.

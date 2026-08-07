@@ -1,12 +1,12 @@
 """Phase-0 gate driver. Run on the GPU pod after lens fitting.
 
 Usage:
-    python scripts/phase0.py gate-a --lens results/lens_qwen3-4b_n150.pt
-    python scripts/phase0.py gate-b --lens ... --band 12 13 ... 28
-    python scripts/phase0.py gate-c --lens ... --band ...
-    python scripts/phase0.py gate-d --lens ... --band ...   # operating-point sweep
+    python scripts/gates.py gate-a --lens results/lens_qwen3-4b_n150.pt
+    python scripts/gates.py gate-b --lens ... --band 12 13 ... 28
+    python scripts/gates.py gate-c --lens ... --band ...
+    python scripts/gates.py gate-d --lens ... --band ...   # operating-point sweep
 
-Every subcommand writes JSON to results/phase0/<gate>.json. Gate thresholds
+Every subcommand writes JSON to results/gates/<gate>.json. Gate thresholds
 live in README.md and are FROZEN; this script only reports numbers.
 """
 
@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 import torch
 
-RESULTS = os.path.join(os.path.dirname(__file__), "..", "results", "phase0")
+RESULTS = os.path.join(os.path.dirname(__file__), "..", "results", "gates")
 
 
 def load_everything(lens_path: str, model_name: str = "Qwen/Qwen3-4B"):
@@ -55,7 +55,7 @@ def save(gate: str, payload: dict) -> None:
 
 
 def gate_a(args) -> None:
-    from src.phase0 import band_metrics, occupancy_curve
+    from src.gates import band_metrics, occupancy_curve
 
     model, tok, lens = load_everything(args.lens, args.model)
     prompts = held_out_passages(args.n_prompts)
@@ -74,7 +74,7 @@ def gate_a(args) -> None:
 
 
 def gate_b(args) -> None:
-    from src.phase0 import two_hop_readout
+    from src.gates import two_hop_readout
 
     model, tok, lens = load_everything(args.lens, args.model)
     out = two_hop_readout(model, tok, lens, args.band, n_items=20)
@@ -87,7 +87,7 @@ def gate_b(args) -> None:
 def gate_c(args) -> None:
     from datasets import load_dataset
 
-    from src.phase0 import numeric_loading_audit
+    from src.gates import numeric_loading_audit
 
     model, tok, lens = load_everything(args.lens, args.model)
     gsm = load_dataset("openai/gsm8k", "main", split="test")
@@ -112,7 +112,7 @@ def direct_prompt(tok, question: str) -> str:
 def gate_d(args) -> None:
     """Operating-point sweep on the VERBAL two-hop control only (never math)."""
     from src.ablate import AblationConfig, JSpaceAblator, generate_with_ablation
-    from src.phase0 import fetch_official_eval, pretraining_top1_match
+    from src.gates import fetch_official_eval, pretraining_top1_match
 
     model, tok, lens = load_everything(args.lens, args.model)
     passages = held_out_passages(50)

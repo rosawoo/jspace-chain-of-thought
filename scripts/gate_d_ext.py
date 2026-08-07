@@ -31,7 +31,7 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-RESULTS = os.path.join(os.path.dirname(__file__), "..", "results", "phase0")
+RESULTS = os.path.join(os.path.dirname(__file__), "..", "results", "gates")
 FULL = list(range(12, 29))
 WINDOWS = {
     "win12-15": list(range(12, 16)), "win16-19": list(range(16, 20)),
@@ -46,9 +46,9 @@ def main() -> None:
     parser.add_argument("--model", default="Qwen/Qwen3-4B")
     args = parser.parse_args()
 
-    from scripts.phase0 import (held_out_passages, load_everything,
+    from scripts.gates import (held_out_passages, load_everything,
                                 twohop_generation)
-    from src.phase0 import fetch_official_eval, pretraining_top1_match
+    from src.gates import fetch_official_eval, pretraining_top1_match
 
     model, tok, lens = load_everything(args.lens, args.model)
     passages = held_out_passages(20)

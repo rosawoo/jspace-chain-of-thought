@@ -8,3 +8,13 @@ results/*.pt
 *.pt
 .DS_Store
 .env
+report/*.tex
+report/*.sty
+report/*.bst
+report/*.bib
+report/math_commands.tex
+results/gates/DECISION.md
+results/*.log
+results/gates/*.log
+NOTES.md
+report/report_iclr.pdf

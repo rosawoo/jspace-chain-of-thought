@@ -214,8 +214,8 @@ def main() -> None:
     parser.add_argument("--model", default="Qwen/Qwen3-4B")
     args = parser.parse_args()
 
-    from scripts.phase0 import held_out_passages, load_everything
-    from src.phase0 import fetch_official_eval
+    from scripts.gates import held_out_passages, load_everything
+    from src.gates import fetch_official_eval
 
     model, tok, lens = load_everything(args.lens, args.model)
     os.makedirs(RESULTS, exist_ok=True)

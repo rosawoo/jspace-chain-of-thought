@@ -1,0 +1,262 @@
+{
+ "stage1": [
+  {
+   "select": "abs",
+   "skip_first": 0,
+   "top1": 0.5014730370180607
+  },
+  {
+   "select": "abs",
+   "skip_first": 16,
+   "top1": 0.5591136159856539
+  },
+  {
+   "select": "positive",
+   "skip_first": 0,
+   "top1": 0.48661457666197
+  },
+  {
+   "select": "positive",
+   "skip_first": 16,
+   "top1": 0.5570641731779172
+  }
+ ],
+ "stage2": [
+  {
+   "config": "full-k1",
+   "band": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "k": 1,
+   "top1": 0.6775970283079288,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.4666666666666667,
+   "twohop_rel_drop": 0.06666666666666665,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "full-k2",
+   "band": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "k": 2,
+   "top1": 0.634046368643525,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.4666666666666667,
+   "twohop_rel_drop": 0.06666666666666665,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "full-k3",
+   "band": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "k": 3,
+   "top1": 0.6127833995132573,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.5,
+   "twohop_rel_drop": 0.0,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "win12-15-k3",
+   "band": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "k": 3,
+   "top1": 0.8266939925707698,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.4666666666666667,
+   "twohop_rel_drop": 0.06666666666666665,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "win12-15-k10",
+   "band": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "k": 10,
+   "top1": 0.80210067887793,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.4666666666666667,
+   "twohop_rel_drop": 0.06666666666666665,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "win16-19-k3",
+   "band": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "k": 3,
+   "top1": 0.8094018188804919,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.4666666666666667,
+   "twohop_rel_drop": 0.06666666666666665,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "win16-19-k10",
+   "band": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "k": 10,
+   "top1": 0.7775073651850903,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.4666666666666667,
+   "twohop_rel_drop": 0.06666666666666665,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "win20-23-k3",
+   "band": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "k": 3,
+   "top1": 0.7648264378122198,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.5333333333333333,
+   "twohop_rel_drop": -0.06666666666666665,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "win20-23-k10",
+   "band": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "k": 10,
+   "top1": 0.7283207377994108,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.5,
+   "twohop_rel_drop": 0.0,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "win24-27-k3",
+   "band": [
+    24,
+    25,
+    26,
+    27
+   ],
+   "k": 3,
+   "top1": 0.725502753938773,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.4666666666666667,
+   "twohop_rel_drop": 0.06666666666666665,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  },
+  {
+   "config": "win24-27-k10",
+   "band": [
+    24,
+    25,
+    26,
+    27
+   ],
+   "k": 10,
+   "top1": 0.687844242346612,
+   "twohop_clean": 0.5,
+   "twohop_ablated": 0.5,
+   "twohop_rel_drop": 0.0,
+   "wellformed": 1.0,
+   "viable_at_frozen_thresholds": false
+  }
+ ],
+ "stage3": [
+  {
+   "point": "reference full-k10",
+   "top1_jspace": 0.5570641731779172,
+   "top1_random": 0.6651722812860253,
+   "twohop": {
+    "none": {
+     "acc": 0.5,
+     "wf": 1.0
+    },
+    "jspace": {
+     "acc": 0.4666666666666667,
+     "wf": 1.0
+    },
+    "random": {
+     "acc": 0.4666666666666667,
+     "wf": 1.0
+    }
+   }
+  }
+ ]
+}

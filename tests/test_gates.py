@@ -5,7 +5,7 @@ import torch
 from transformers import AutoTokenizer, Qwen3Config, Qwen3ForCausalLM
 
 from src.jlens_core import LensSpace, ModelAdapter
-from src.phase0 import (band_metrics, numeric_loading_audit, occupancy_curve,
+from src.gates import (band_metrics, numeric_loading_audit, occupancy_curve,
                         pretraining_top1_match, token_is_numeric)
 
 VOCAB, D, LAYERS = 97, 64, 4

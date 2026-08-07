@@ -1,7 +1,7 @@
 """Core experiment driver (C1-C4). Every cell writes
 results/<experiment>/<dataset>_<mode>_<arm>.jsonl and is resumable.
 
-The band and k come from Phase-0 Gate D (results/phase0/gate_d.json).
+The band and k come from Phase-0 Gate D (results/gates/gate_d.json).
 
     python scripts/run_core.py c1 --lens LENS --band ... --k 10
     python scripts/run_core.py c2 --lens LENS --band ... --k 10
@@ -32,7 +32,7 @@ CAPS = {"gsm8k_direct": 64, "gsm8k_cot": 1024, "math500_cot": 3072,
 
 
 def load_everything(args):
-    from scripts.phase0 import load_everything as _le
+    from scripts.gates import load_everything as _le
     return _le(args.lens, args.model)
 
 
@@ -96,10 +96,10 @@ def c4(args) -> None:
     import torch
     from datasets import load_dataset
 
-    from scripts.phase0 import held_out_passages
+    from scripts.gates import held_out_passages
     from src.ablate import AblationConfig, JSpaceAblator, generate_with_ablation
     from src.eval_harness import ARMS
-    from src.phase0 import pretraining_top1_match
+    from src.gates import pretraining_top1_match
 
     model, tok, lens = load_everything(args)
     battery: dict = {}

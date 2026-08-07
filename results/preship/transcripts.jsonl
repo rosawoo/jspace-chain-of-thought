@@ -1,0 +1,360 @@
+{"task": "mmlu", "arm": "clean", "i": 0, "text": "C. 1", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 1, "text": "B. 3", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 2, "text": "**Answer: A", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 3, "text": "C. 4", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 4, "text": "C. 1", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 5, "text": "D. False,", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 6, "text": "A. True,", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 7, "text": "C. True,", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 8, "text": "The maximum possible order", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 9, "text": "A. True,", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 10, "text": "**Statement 1", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 11, "text": "D. Homeost", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 12, "text": "D. The max", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 13, "text": "C. lower l", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 14, "text": "C. is inn", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 15, "text": "B. Cartilage", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 16, "text": "D. at all", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 17, "text": "A. fifth left", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 18, "text": "D. All of", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 19, "text": "C. actin", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 20, "text": "B. Hypoth", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 21, "text": "B. Dilation", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 22, "text": "B.<|im_end|>", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 23, "text": "B. second ph", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 24, "text": "D. between the", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 25, "text": "D. Power emitted", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 26, "text": "B. The minim", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 27, "text": "D.<|im_end|>", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 28, "text": "A. Its rotation", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 29, "text": "To find the ratio", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 30, "text": "B. Volcan", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 31, "text": "D. the presence", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 32, "text": "C. Opportunity may", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 33, "text": "A.<|im_end|>", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 34, "text": "A. third quarter", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 35, "text": "B. An ideal", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 36, "text": "A.<|im_end|>", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 37, "text": "To estimate the orbital", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 38, "text": "B. Being hit", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 39, "text": "D. by using", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 40, "text": "A. away from", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 41, "text": "C<|im_end|>", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 42, "text": "B. Political,", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 43, "text": "A. 1", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 44, "text": "A. Philanth", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 45, "text": "C. Agency relation", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 46, "text": "A. 1", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 47, "text": "A. 1", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 48, "text": "B. United Nations", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 49, "text": "A<|im_end|>", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 50, "text": "A. Corporate Social", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 51, "text": "C<|im_end|>", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 52, "text": "D. red,", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 53, "text": "B. Bradyc", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 54, "text": "D. High blood", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 55, "text": "C. 6", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 56, "text": "A. Daily.", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 57, "text": "D. Dentures", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 58, "text": "B. Because the", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 59, "text": "C. 1", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 60, "text": "B. exons", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 61, "text": "D. The cerv", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 62, "text": "B. 4", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 63, "text": "D. To orally", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 64, "text": "D. increased sympathetic", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 65, "text": "A. Confusion", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 66, "text": "C. The pain", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 67, "text": "D. drows", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 68, "text": "C. It leads", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 69, "text": "C. The primary", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 70, "text": "C. 1", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 71, "text": "D. A high", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 72, "text": "A. Stroke volume", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 73, "text": "B<|im_end|>", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 74, "text": "C. Document cath", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 75, "text": "A. Very severe", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 76, "text": "C. An enlarged", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 77, "text": "D. WG George", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 78, "text": "B. Redness", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 79, "text": "B. converted into", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 80, "text": "C<|im_end|>", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 81, "text": "C. Chromosome", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 82, "text": "D. Calcium-t", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 83, "text": "D. cytos", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 84, "text": "D. II and", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 85, "text": "B. liverwort", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 86, "text": "C. the alarm", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 87, "text": "C. ferns", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 88, "text": "D. Sand or", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 89, "text": "B. Larvae", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 90, "text": "D. It is", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 91, "text": "D. the genomes", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 92, "text": "A. Calvin cycle", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 93, "text": "D. Chiasm", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 94, "text": "A. Gond", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 95, "text": "C. Replication", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 96, "text": "B. cleaving", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 97, "text": "B. It is", "ok": true}
+{"task": "mmlu", "arm": "clean", "i": 98, "text": "B. 2", "ok": false}
+{"task": "mmlu", "arm": "clean", "i": 99, "text": "D. helium c", "ok": false}
+{"task": "copy", "arm": "clean", "i": 0, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 1, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 2, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 3, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 4, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 5, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 6, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 7, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 8, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 9, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 10, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 11, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 12, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 13, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 14, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 15, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 16, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 17, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 18, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "clean", "i": 19, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "mmlu", "arm": "jspace", "i": 0, "text": "The cyclic subgroup of", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 1, "text": "The order of the", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 2, "text": "A.True,", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 3, "text": "A. 2", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 4, "text": "C. 1", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 5, "text": "The symmetric group S", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 6, "text": "Statement 1 is", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 7, "text": "Statement 1 is", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 8, "text": "The maximum possible order", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 9, "text": "A.True,", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 10, "text": "Statement 1:", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 11, "text": "D. Homeost", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 12, "text": "D. The max", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 13, "text": "C. lower l", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 14, "text": "The maxillary sinus", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 15, "text": "B. Cartilage", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 16, "text": "D. at all", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 17, "text": "A. fifth left", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 18, "text": "E. All of", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 19, "text": "C. actin", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 20, "text": "B. Hypoth", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 21, "text": "B. Dilation", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 22, "text": "B. lies superficial", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 23, "text": "A. first ph", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 24, "text": "The patient is most", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 25, "text": "The power a black", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 26, "text": "A. Spont", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 27, "text": "D. Large impacts", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 28, "text": "Venus does not", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 29, "text": "To find the ratio", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 30, "text": "B. Volokable", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 31, "text": "A. patterns of", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 32, "text": "A. Opportunity may", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 33, "text": "A. a large", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 34, "text": "A. third quarter", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 35, "text": "B.An ideal", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 36, "text": "A. they are", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 37, "text": "The ISS orbits the", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 38, "text": "The least likely cause", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 39, "text": "The surface of Venus", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 40, "text": "A. away from", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 41, "text": "C\n\nC\n\n", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 42, "text": "D. Social,", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 43, "text": "The answer is A", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 44, "text": "A. Phillet", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 45, "text": "C. Agency relation", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 46, "text": "Executive directors are responsible", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 47, "text": "The answer is A", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 48, "text": "B. United Nations", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 49, "text": "A. Ownership and", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 50, "text": "A. Corporate Social", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 51, "text": "C. Resource intensity", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 52, "text": "D. red,", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 53, "text": "B. Bradyc", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 54, "text": "C. Low blood", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 55, "text": "A. 4", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 56, "text": "A. Daily.\n\n", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 57, "text": "The incorrect thing is", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 58, "text": "B. Because the", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 59, "text": "The recommended dose of", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 60, "text": "B. exons", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 61, "text": "The rectal examination", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 62, "text": "The large volume spacer", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 63, "text": "D. To orally", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 64, "text": "D. increased sympathetic", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 65, "text": "B. Confusion", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 66, "text": "The pain of o", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 67, "text": "D. dros", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 68, "text": "C\n\nRadial", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 69, "text": "C. The primary", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 70, "text": "A long-term cath", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 71, "text": "B. A g", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 72, "text": "A. Stroke volume", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 73, "text": "B.An ant", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 74, "text": "After cathering is", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 75, "text": "C\n\nIn a", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 76, "text": "A\n\nA.", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 77, "text": "The world record for", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 78, "text": "B. Redness", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 79, "text": "B\n\nB.", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 80, "text": "C\n\nSust", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 81, "text": "C\n\nC.", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 82, "text": "The end of the", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 83, "text": "B. increased ext", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 84, "text": "D. II and", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 85, "text": "B. liverwort", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 86, "text": "The answer is C", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 87, "text": "The plant has swimming", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 88, "text": "O.lyph\n\n", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 89, "text": "B\n\nB.", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 90, "text": "E.It is", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 91, "text": "In cloning experiments on", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 92, "text": "A. Calvin cycle", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 93, "text": "D. Chiasm", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 94, "text": "The separation of the", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 95, "text": "Prokaryotes", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 96, "text": "B. cleaving", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 97, "text": "Br2 is a", "ok": true}
+{"task": "mmlu", "arm": "jspace", "i": 98, "text": "B. 2", "ok": false}
+{"task": "mmlu", "arm": "jspace", "i": 99, "text": "A. hyd", "ok": true}
+{"task": "copy", "arm": "jspace", "i": 0, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 1, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 2, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 3, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 4, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 5, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 6, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 7, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 8, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 9, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 10, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 11, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 12, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 13, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 14, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 15, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 16, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 17, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 18, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "jspace", "i": 19, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "mmlu", "arm": "randtok", "i": 0, "text": "The cyclic subgroup of", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 1, "text": "The order of the", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 2, "text": "The correct answer is", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 3, "text": "To find the order", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 4, "text": "The maximum possible order", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 5, "text": "The correct answer is", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 6, "text": "The correct answer is", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 7, "text": "Let's analyze each", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 8, "text": "The maximum possible order", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 9, "text": "A. True,", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 10, "text": "Let's analyze each", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 11, "text": "D. Homeost", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 12, "text": "D. The max", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 13, "text": "C. lower l", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 14, "text": "A. is lined", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 15, "text": "B. Cartilage", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 16, "text": "D. at all", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 17, "text": "A. fifth left", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 18, "text": "A. veins draining", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 19, "text": "C. actin", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 20, "text": "B. Hypoth", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 21, "text": "B. Dilation", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 22, "text": "B. lies superficial", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 23, "text": "A. first ph", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 24, "text": "D. between the", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 25, "text": "A. Power emitted", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 26, "text": "A. Spont", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 27, "text": "D. Large impacts", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 28, "text": "A. Its rotation", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 29, "text": "To find the ratio", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 30, "text": "B. Volcan", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 31, "text": "D. the presence", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 32, "text": "C. Opportunity may", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 33, "text": "A.<|im_end|>", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 34, "text": "A. third quarter", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 35, "text": "B. An ideal", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 36, "text": "A. they are", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 37, "text": "To estimate the orbital", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 38, "text": "B. Being hit", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 39, "text": "D. by using", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 40, "text": "A. away from", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 41, "text": "C. Companies Act", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 42, "text": "B. Political,", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 43, "text": "A. 1", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 44, "text": "A. Philanth", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 45, "text": "C. Agency relation", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 46, "text": "A. 1", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 47, "text": "A. 1", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 48, "text": "B. United Nations", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 49, "text": "A. Ownership and", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 50, "text": "A. Corporate Social", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 51, "text": "C. Resource intensity", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 52, "text": "D. red,", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 53, "text": "B. Bradyc", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 54, "text": "A. Low blood", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 55, "text": "B. 5", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 56, "text": "A. Daily.", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 57, "text": "D. Dentures", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 58, "text": "B. Because the", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 59, "text": "C. 1", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 60, "text": "B. exons", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 61, "text": "D. The cerv", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 62, "text": "B. 4", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 63, "text": "D. To orally", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 64, "text": "D. increased sympathetic", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 65, "text": "A. Confusion", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 66, "text": "C. The pain", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 67, "text": "D. drows", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 68, "text": "C. It leads", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 69, "text": "C. The primary", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 70, "text": "C. 1", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 71, "text": "D. A high", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 72, "text": "A. Stroke volume", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 73, "text": "B. An ant", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 74, "text": "C. Document cath", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 75, "text": "A. Very severe", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 76, "text": "A. A lesion", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 77, "text": "D. WG George", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 78, "text": "B. Redness", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 79, "text": "B. converted into", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 80, "text": "C. The root", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 81, "text": "C. Chromosome", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 82, "text": "D. Calcium-t", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 83, "text": "D. cytos", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 84, "text": "D. II and", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 85, "text": "B. liverwort", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 86, "text": "C. the alarm", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 87, "text": "C. ferns", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 88, "text": "D. Sand or", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 89, "text": "B. Larvae", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 90, "text": "D. It is", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 91, "text": "D. the genomes", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 92, "text": "A. Calvin cycle", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 93, "text": "D. Chiasm", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 94, "text": "A. Gond", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 95, "text": "C. Replication", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 96, "text": "B. cleaving", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 97, "text": "B. It is", "ok": true}
+{"task": "mmlu", "arm": "randtok", "i": 98, "text": "B. 2", "ok": false}
+{"task": "mmlu", "arm": "randtok", "i": 99, "text": "D. helium c", "ok": false}
+{"task": "copy", "arm": "randtok", "i": 0, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 1, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 2, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 3, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 4, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 5, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 6, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 7, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 8, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 9, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 10, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 11, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 12, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 13, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 14, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 15, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 16, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 17, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 18, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}
+{"task": "copy", "arm": "randtok", "i": 19, "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn.<|im_end|>"}

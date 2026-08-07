@@ -1,0 +1,107 @@
+{
+ "hits": 5,
+ "total": 20,
+ "details": [
+  {
+   "prompt": "Fact: The ocean on the coast of the country where Carnival is most famously cele",
+   "found": false,
+   "best_rank": 399
+  },
+  {
+   "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+   "found": false,
+   "best_rank": 16
+  },
+  {
+   "prompt": "Fact: The color of the planet fourth from the Sun is",
+   "found": false,
+   "best_rank": 12
+  },
+  {
+   "prompt": "Fact: The number of legs on the animal that spins webs is",
+   "found": false,
+   "best_rank": 23
+  },
+  {
+   "prompt": "Fact: The number of players per side in the sport invented in Springfield, Massa",
+   "found": false,
+   "best_rank": 26
+  },
+  {
+   "prompt": "Fact: The continent where the country that invented paper is located is",
+   "found": false,
+   "best_rank": 16
+  },
+  {
+   "prompt": "Fact: The season when the holiday with a decorated tree occurs is",
+   "found": false,
+   "best_rank": 98
+  },
+  {
+   "prompt": "Fact: The mascot of the college football rival of Ohio State is a",
+   "found": false,
+   "best_rank": 239
+  },
+  {
+   "prompt": "Fact: The state west of the state with Topeka as its capital is",
+   "found": true,
+   "best_rank": 1
+  },
+  {
+   "prompt": "Fact: The chemical symbol for the element with atomic number 79 is",
+   "found": false,
+   "best_rank": 13
+  },
+  {
+   "prompt": "Fact: The chemical symbol for the element with atomic number 26 is",
+   "found": true,
+   "best_rank": 5
+  },
+  {
+   "prompt": "Fact: The chemical symbol for the element with atomic number 29 is",
+   "found": true,
+   "best_rank": 5
+  },
+  {
+   "prompt": "Fact: The state of matter at room temperature of the element with atomic number ",
+   "found": false,
+   "best_rank": 30
+  },
+  {
+   "prompt": "Fact: The flame color produced by burning the element with atomic number 29 is",
+   "found": false,
+   "best_rank": 39
+  },
+  {
+   "prompt": "Fact: The number of natural moons orbiting the planet third from the Sun is",
+   "found": false,
+   "best_rank": 18
+  },
+  {
+   "prompt": "Fact: The third month of the year is named after the Roman god of",
+   "found": false,
+   "best_rank": 758
+  },
+  {
+   "prompt": "Fact: The US state where the Space Needle is located shares its northern border ",
+   "found": true,
+   "best_rank": 6
+  },
+  {
+   "prompt": "Fact: The European country whose name rhymes with 'rain' shares its western bord",
+   "found": true,
+   "best_rank": 2
+  },
+  {
+   "prompt": "Fact: Take the number whose name rhymes with the word door. Doubling it gives th",
+   "found": false,
+   "best_rank": 162
+  },
+  {
+   "prompt": "Fact: The large mammal whose name rhymes with 'chair' appears on the state flag ",
+   "found": false,
+   "best_rank": 1275
+  }
+ ],
+ "pass": false
+}

@@ -1,0 +1,84 @@
+{"idx": 0, "bridge": ["Brazil"], "rank_direct": 166, "logprob_direct": -9.56886100769043, "rank_cot": 137, "logprob_cot": -9.377201080322266}
+{"idx": 1, "bridge": ["Brazil"], "rank_direct": 5, "logprob_direct": -3.886044502258301, "rank_cot": 6, "logprob_cot": -3.8420228958129883}
+{"idx": 2, "bridge": ["Mars"], "rank_direct": 4, "logprob_direct": -3.3782057762145996, "rank_cot": 6, "logprob_cot": -3.778538465499878}
+{"idx": 3, "bridge": ["spider"], "rank_direct": 2, "logprob_direct": -2.3935346603393555, "rank_cot": 2, "logprob_cot": -2.3532114028930664}
+{"idx": 4, "bridge": ["basketball"], "rank_direct": 54, "logprob_direct": -7.398859977722168, "rank_cot": 56, "logprob_cot": -7.000361442565918}
+{"idx": 5, "bridge": ["China"], "rank_direct": 9, "logprob_direct": -7.302925109863281, "rank_cot": 11, "logprob_cot": -7.16282320022583}
+{"idx": 6, "bridge": ["Christmas"], "rank_direct": 1, "logprob_direct": -2.263899087905884, "rank_cot": 1, "logprob_cot": -2.4116671085357666}
+{"idx": 7, "bridge": ["Michigan"], "rank_direct": 3, "logprob_direct": -3.272618055343628, "rank_cot": 3, "logprob_cot": -3.3520333766937256}
+{"idx": 8, "bridge": ["Kansas"], "rank_direct": 1, "logprob_direct": -0.18895836174488068, "rank_cot": 1, "logprob_cot": -0.11818360537290573}
+{"idx": 9, "bridge": ["gold"], "rank_direct": 11, "logprob_direct": -4.153565883636475, "rank_cot": 6, "logprob_cot": -3.2250990867614746}
+{"idx": 10, "bridge": ["iron"], "rank_direct": 3, "logprob_direct": -4.186440467834473, "rank_cot": 3, "logprob_cot": -3.4801414012908936}
+{"idx": 11, "bridge": ["copper"], "rank_direct": 1, "logprob_direct": -2.8269476890563965, "rank_cot": 1, "logprob_cot": -2.8889100551605225}
+{"idx": 12, "bridge": ["mercury"], "rank_direct": 9, "logprob_direct": -5.024604320526123, "rank_cot": 7, "logprob_cot": -4.847652912139893}
+{"idx": 13, "bridge": ["copper"], "rank_direct": 1, "logprob_direct": -2.6845812797546387, "rank_cot": 1, "logprob_cot": -2.62460994720459}
+{"idx": 14, "bridge": ["Earth"], "rank_direct": 1, "logprob_direct": -0.57924884557724, "rank_cot": 1, "logprob_cot": -0.49802592396736145}
+{"idx": 15, "bridge": ["March"], "rank_direct": 7, "logprob_direct": -4.693940162658691, "rank_cot": 6, "logprob_cot": -5.35988187789917}
+{"idx": 16, "bridge": ["Seattle"], "rank_direct": 18, "logprob_direct": -6.819337844848633, "rank_cot": 20, "logprob_cot": -6.9900736808776855}
+{"idx": 17, "bridge": ["Spain"], "rank_direct": 2, "logprob_direct": -2.838682174682617, "rank_cot": 2, "logprob_cot": -3.1169095039367676}
+{"idx": 18, "bridge": ["four"], "rank_direct": 25, "logprob_direct": -5.5298051834106445, "rank_cot": 25, "logprob_cot": -5.782320022583008}
+{"idx": 19, "bridge": ["bear"], "rank_direct": 326, "logprob_direct": -8.860749244689941, "rank_cot": 178, "logprob_cot": -8.353116035461426}
+{"idx": 20, "bridge": ["moon"], "rank_direct": 13, "logprob_direct": -6.395582675933838, "rank_cot": 15, "logprob_cot": -6.0768585205078125}
+{"idx": 21, "bridge": ["March"], "rank_direct": 7, "logprob_direct": -4.585188865661621, "rank_cot": 9, "logprob_cot": -4.308227062225342}
+{"idx": 22, "bridge": ["Friday"], "rank_direct": 35, "logprob_direct": -6.204273223876953, "rank_cot": 29, "logprob_cot": -5.4373779296875}
+{"idx": 23, "bridge": ["Saturn"], "rank_direct": 5, "logprob_direct": -3.506953716278076, "rank_cot": 6, "logprob_cot": -3.273627519607544}
+{"idx": 24, "bridge": ["oxygen"], "rank_direct": 1, "logprob_direct": -3.0464413166046143, "rank_cot": 1, "logprob_cot": -4.109385967254639}
+{"idx": 25, "bridge": ["nitrogen"], "rank_direct": 2, "logprob_direct": -1.4073270559310913, "rank_cot": 1, "logprob_cot": -0.5282866954803467}
+{"idx": 26, "bridge": ["carbon"], "rank_direct": 8, "logprob_direct": -5.864204406738281, "rank_cot": 11, "logprob_cot": -5.554215431213379}
+{"idx": 27, "bridge": ["calcium"], "rank_direct": 1, "logprob_direct": -4.918216705322266, "rank_cot": 1, "logprob_cot": -4.852774620056152}
+{"idx": 28, "bridge": ["heart"], "rank_direct": 60, "logprob_direct": -8.17586612701416, "rank_cot": 39, "logprob_cot": -8.274682998657227}
+{"idx": 29, "bridge": ["kidney"], "rank_direct": 3, "logprob_direct": -5.751143932342529, "rank_cot": 4, "logprob_cot": -5.4374775886535645}
+{"idx": 30, "bridge": ["May"], "rank_direct": 5, "logprob_direct": -5.346231460571289, "rank_cot": 5, "logprob_cot": -5.529272079467773}
+{"idx": 31, "bridge": ["violin"], "rank_direct": 5, "logprob_direct": -3.343508243560791, "rank_cot": 4, "logprob_cot": -3.112102508544922}
+{"idx": 32, "bridge": ["3", "three", "third"], "rank_direct": 56, "logprob_direct": -8.625786781311035, "rank_cot": 69, "logprob_cot": -8.601916313171387}
+{"idx": 33, "bridge": ["5", "five"], "rank_direct": 47, "logprob_direct": -8.252228736877441, "rank_cot": 57, "logprob_cot": -8.34638786315918}
+{"idx": 34, "bridge": ["6", "six"], "rank_direct": 198, "logprob_direct": -9.034381866455078, "rank_cot": 327, "logprob_cot": -9.173419952392578}
+{"idx": 35, "bridge": ["4", "four"], "rank_direct": 259, "logprob_direct": -8.159425735473633, "rank_cot": 246, "logprob_cot": -8.223258972167969}
+{"idx": 36, "bridge": ["6", "six"], "rank_direct": 582, "logprob_direct": -9.36366081237793, "rank_cot": 561, "logprob_cot": -9.522653579711914}
+{"idx": 39, "bridge": ["6", "six"], "rank_direct": 1136, "logprob_direct": -9.805429458618164, "rank_cot": 1001, "logprob_cot": -9.535420417785645}
+{"idx": 40, "bridge": ["7"], "rank_direct": 965, "logprob_direct": -10.089378356933594, "rank_cot": 3509, "logprob_cot": -10.30130386352539}
+{"idx": 41, "bridge": ["8"], "rank_direct": 3308, "logprob_direct": -10.237005233764648, "rank_cot": 6904, "logprob_cot": -10.701316833496094}
+{"idx": 42, "bridge": ["6", "six"], "rank_direct": 271, "logprob_direct": -9.027098655700684, "rank_cot": 662, "logprob_cot": -10.289511680603027}
+{"idx": 43, "bridge": ["7"], "rank_direct": 328, "logprob_direct": -9.96800422668457, "rank_cot": 417, "logprob_cot": -10.7208251953125}
+{"idx": 44, "bridge": ["Russia"], "rank_direct": 3, "logprob_direct": -2.4161300659179688, "rank_cot": 3, "logprob_cot": -2.3818001747131348}
+{"idx": 45, "bridge": ["Vatican"], "rank_direct": 822, "logprob_direct": -9.375494956970215, "rank_cot": 736, "logprob_cot": -9.56303596496582}
+{"idx": 46, "bridge": ["China"], "rank_direct": 4, "logprob_direct": -3.242727518081665, "rank_cot": 5, "logprob_cot": -3.52431058883667}
+{"idx": 47, "bridge": ["Indonesia"], "rank_direct": 11, "logprob_direct": -5.978625297546387, "rank_cot": 10, "logprob_cot": -5.999234199523926}
+{"idx": 48, "bridge": ["Italy"], "rank_direct": 6, "logprob_direct": -5.263673782348633, "rank_cot": 7, "logprob_cot": -5.513004302978516}
+{"idx": 49, "bridge": ["China"], "rank_direct": 2, "logprob_direct": -1.7963529825210571, "rank_cot": 2, "logprob_cot": -2.1333041191101074}
+{"idx": 50, "bridge": ["July"], "rank_direct": 1, "logprob_direct": -0.08391730487346649, "rank_cot": 1, "logprob_cot": -0.07632476091384888}
+{"idx": 51, "bridge": ["December"], "rank_direct": 1, "logprob_direct": -0.1223120391368866, "rank_cot": 1, "logprob_cot": -0.09997059404850006}
+{"idx": 52, "bridge": ["October"], "rank_direct": 1, "logprob_direct": -0.012903527356684208, "rank_cot": 1, "logprob_cot": -0.01287834346294403}
+{"idx": 53, "bridge": ["February"], "rank_direct": 1, "logprob_direct": -0.04344470426440239, "rank_cot": 1, "logprob_cot": -0.02308027818799019}
+{"idx": 54, "bridge": ["January"], "rank_direct": 3, "logprob_direct": -2.852193593978882, "rank_cot": 4, "logprob_cot": -3.7228684425354004}
+{"idx": 55, "bridge": ["January"], "rank_direct": 2, "logprob_direct": -3.173090934753418, "rank_cot": 2, "logprob_cot": -2.8686599731445312}
+{"idx": 56, "bridge": ["July"], "rank_direct": 5, "logprob_direct": -5.031419277191162, "rank_cot": 4, "logprob_cot": -4.058696269989014}
+{"idx": 57, "bridge": ["July"], "rank_direct": 2, "logprob_direct": -1.189314842224121, "rank_cot": 2, "logprob_cot": -0.8598060607910156}
+{"idx": 63, "bridge": ["east"], "rank_direct": 2, "logprob_direct": -5.311346054077148, "rank_cot": 2, "logprob_cot": -5.424812316894531}
+{"idx": 64, "bridge": ["up"], "rank_direct": 1786, "logprob_direct": -10.136650085449219, "rank_cot": 1329, "logprob_cot": -10.237305641174316}
+{"idx": 65, "bridge": ["down"], "rank_direct": 300, "logprob_direct": -8.398506164550781, "rank_cot": 208, "logprob_cot": -8.520999908447266}
+{"idx": 66, "bridge": ["south"], "rank_direct": 7, "logprob_direct": -5.576352119445801, "rank_cot": 6, "logprob_cot": -5.6083784103393555}
+{"idx": 67, "bridge": ["three"], "rank_direct": 157, "logprob_direct": -8.976860046386719, "rank_cot": 122, "logprob_cot": -8.949100494384766}
+{"idx": 68, "bridge": ["five"], "rank_direct": 307, "logprob_direct": -9.146103858947754, "rank_cot": 81, "logprob_cot": -7.685469627380371}
+{"idx": 69, "bridge": ["six"], "rank_direct": 163, "logprob_direct": -9.68428897857666, "rank_cot": 77, "logprob_cot": -9.116762161254883}
+{"idx": 70, "bridge": ["two"], "rank_direct": 14, "logprob_direct": -9.201075553894043, "rank_cot": 12, "logprob_cot": -9.202524185180664}
+{"idx": 71, "bridge": ["India"], "rank_direct": 1, "logprob_direct": -4.150845527648926, "rank_cot": 1, "logprob_cot": -4.0626373291015625}
+{"idx": 72, "bridge": ["France"], "rank_direct": 2, "logprob_direct": -2.8110406398773193, "rank_cot": 2, "logprob_cot": -3.2632246017456055}
+{"idx": 73, "bridge": ["October"], "rank_direct": 1, "logprob_direct": -0.06305622309446335, "rank_cot": 1, "logprob_cot": -0.11398816853761673}
+{"idx": 74, "bridge": ["February"], "rank_direct": 1, "logprob_direct": -0.05575442686676979, "rank_cot": 1, "logprob_cot": -0.07953236252069473}
+{"idx": 75, "bridge": ["China"], "rank_direct": 10, "logprob_direct": -4.529081344604492, "rank_cot": 19, "logprob_cot": -4.930203437805176}
+{"idx": 76, "bridge": ["France"], "rank_direct": 2, "logprob_direct": -1.808985948562622, "rank_cot": 2, "logprob_cot": -1.9504421949386597}
+{"idx": 77, "bridge": ["China"], "rank_direct": 2, "logprob_direct": -2.0836920738220215, "rank_cot": 2, "logprob_cot": -1.1263067722320557}
+{"idx": 78, "bridge": ["October"], "rank_direct": 2, "logprob_direct": -1.6657485961914062, "rank_cot": 1, "logprob_cot": -0.26261985301971436}
+{"idx": 79, "bridge": ["February"], "rank_direct": 1, "logprob_direct": -0.044590823352336884, "rank_cot": 1, "logprob_cot": -0.01661394163966179}
+{"idx": 80, "bridge": ["night"], "rank_direct": 13, "logprob_direct": -5.670007705688477, "rank_cot": 10, "logprob_cot": -5.319983959197998}
+{"idx": 81, "bridge": ["day"], "rank_direct": 4, "logprob_direct": -7.617934703826904, "rank_cot": 1, "logprob_cot": -7.111912727355957}
+{"idx": 82, "bridge": ["5", "five"], "rank_direct": 4, "logprob_direct": -7.068829536437988, "rank_cot": 3, "logprob_cot": -6.912749290466309}
+{"idx": 85, "bridge": ["6", "six"], "rank_direct": 27, "logprob_direct": -6.374648094177246, "rank_cot": 17, "logprob_cot": -4.8756256103515625}
+{"idx": 86, "bridge": ["H"], "rank_direct": 151, "logprob_direct": -9.727027893066406, "rank_cot": 108, "logprob_cot": -9.886709213256836}
+{"idx": 87, "bridge": ["O"], "rank_direct": 388, "logprob_direct": -11.147382736206055, "rank_cot": 353, "logprob_cot": -11.39256477355957}
+{"idx": 88, "bridge": ["C"], "rank_direct": 829, "logprob_direct": -9.26918888092041, "rank_cot": 328, "logprob_cot": -9.747869491577148}
+{"idx": 89, "bridge": ["N"], "rank_direct": 790, "logprob_direct": -9.644706726074219, "rank_cot": 370, "logprob_cot": -9.983674049377441}
+{"idx": 90, "bridge": ["war"], "rank_direct": 6, "logprob_direct": -4.397878170013428, "rank_cot": 4, "logprob_cot": -4.336840629577637}
+{"idx": 91, "bridge": ["death"], "rank_direct": 1, "logprob_direct": -0.009167601354420185, "rank_cot": 1, "logprob_cot": -0.00975756160914898}
+{"idx": 92, "bridge": ["high"], "rank_direct": 96, "logprob_direct": -8.51590347290039, "rank_cot": 141, "logprob_cot": -8.680011749267578}

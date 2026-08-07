@@ -42,22 +42,22 @@ Back up the lens off-pod when done.
 
 ```bash
 LENS=results/lens_qwen3-4b_n150.pt
-python scripts/phase0.py gate-a --lens $LENS
+python scripts/gates.py gate-a --lens $LENS
 # Band = contiguous layers with elevated kurtosis + autocorr_excess but
 # next_token_agree not yet ~1 (that tail = motor regime). Ballpark: L12–28/36.
 BAND="<layers from gate-a>"
-python scripts/phase0.py gate-b --lens $LENS --band $BAND   # ≥12/20 to proceed
+python scripts/gates.py gate-b --lens $LENS --band $BAND   # ≥12/20 to proceed
 ```
 
 ### M1.3 Operating-point check (single point, not the full sweep) (~0.5 h)
 
 ```bash
-python scripts/phase0.py gate-d --lens $LENS --band $BAND
+python scripts/gates.py gate-d --lens $LENS --band $BAND
 # We only need ONE viable row (coherent + two-hop drop ≥50%). k=10 full band
 # is the default expectation; the sweep's other rows are just printed context.
 ```
 
-Record band + k in `results/phase0/DECISION.md`. **Stop rules:** Gate A/B fail
+Record band + k in `results/gates/DECISION.md`. **Stop rules:** Gate A/B fail
 → logit-lens arbiter check, then non-transfer headline. No viable operating
 point → fragility headline. (HYPOTHESES.md; do not loosen thresholds.)
 
@@ -102,7 +102,7 @@ python scripts/analyze.py c3   # analyzable only if clean ≥ 0.20
 
 - H2 sparing-OFF arm:
   `python scripts/run_core.py c1 --lens $LENS --band $BAND --k $K --arms jspace-nospare`
-- Standalone Gate C: `python scripts/phase0.py gate-c ...`
+- Standalone Gate C: `python scripts/gates.py gate-c ...`
 - C4 full battery: `python scripts/run_core.py c4 ...`
 - Stretch S1–S6 (see judge program in the plan).
 

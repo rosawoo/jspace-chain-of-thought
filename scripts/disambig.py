@@ -25,7 +25,7 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-RESULTS = os.path.join(os.path.dirname(__file__), "..", "results", "phase0")
+RESULTS = os.path.join(os.path.dirname(__file__), "..", "results", "gates")
 FULL = list(range(12, 29))
 
 
@@ -35,8 +35,8 @@ def main() -> None:
     parser.add_argument("--model", default="Qwen/Qwen3-4B")
     args = parser.parse_args()
 
-    from scripts.phase0 import load_everything, twohop_generation
-    from src.phase0 import fetch_official_eval
+    from scripts.gates import load_everything, twohop_generation
+    from src.gates import fetch_official_eval
 
     model, tok, lens = load_everything(args.lens, args.model)
     items = fetch_official_eval("multihop")["items"][:30]

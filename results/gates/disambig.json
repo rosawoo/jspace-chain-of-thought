@@ -1,0 +1,18 @@
+[
+ {
+  "config": "full-k10",
+  "semantics": "positive+skip0",
+  "twohop_clean": 0.5,
+  "twohop_ablated": 0.1,
+  "twohop_rel_drop": 0.8,
+  "wellformed": 0.9666666666666667
+ },
+ {
+  "config": "win12-15-k10",
+  "semantics": "positive+skip0",
+  "twohop_clean": 0.5,
+  "twohop_ablated": 0.4,
+  "twohop_rel_drop": 0.19999999999999996,
+  "wellformed": 1.0
+ }
+]

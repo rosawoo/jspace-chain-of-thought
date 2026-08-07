@@ -1,0 +1,6 @@
+torch>=2.4
+transformers>=4.51
+datasets>=2.20
+math-verify>=0.5
+numpy
+pytest
