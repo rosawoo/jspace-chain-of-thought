@@ -83,8 +83,15 @@ def stratified_math500(per_level: int = 60, seed: int = 0) -> list[Problem]:
     return out
 
 
+DIRECT_PREFILL = "\\boxed{"  # forces an immediate answer in direct mode
+
+
 def build_prompt(tok, problem: Problem, answer_mode: str) -> torch.Tensor:
-    """answer_mode: 'direct' | 'cot' (instructed, non-thinking) | 'thinking'."""
+    """answer_mode: 'direct' | 'cot' (instructed, non-thinking) | 'thinking'.
+
+    Direct mode prefills the assistant turn with ``\\boxed{`` — without it,
+    Qwen3-4B ignores the only-the-answer instruction and rambles past the
+    token cap (observed: 83% truncation in the clean arm)."""
     if answer_mode == "direct":
         content = (problem.question +
                    "\n\nGive only the final answer, inside \\boxed{}. "
@@ -104,6 +111,8 @@ def build_prompt(tok, problem: Problem, answer_mode: str) -> torch.Tensor:
     text = tok.apply_chat_template(
         [{"role": "user", "content": content}], tokenize=False,
         add_generation_prompt=True, enable_thinking=thinking)
+    if answer_mode == "direct":
+        text += DIRECT_PREFILL
     return tok(text, return_tensors="pt").input_ids
 
 
@@ -143,22 +152,57 @@ def paired_seed(problem_id: str, sample_idx: int) -> int:
 ARMS = {
     "clean": dict(mode="none", spare=True),
     "jspace": dict(mode="jspace", spare=True),
-    "random": dict(mode="random", spare=True),
+    "random": dict(mode="random", spare=True),  # retired rank-1 control (overshoots)
+    "randtok": dict(mode="random_tokens", spare=True),  # operator-matched fair control
     "jspace-nospare": dict(mode="jspace", spare=False),
 }
+
+
+def _read_rows_lenient(path: str) -> list[dict]:
+    """Parse JSONL skipping a torn final line (kill mid-write)."""
+    rows = []
+    with open(path) as f:
+        for line in f:
+            try:
+                rows.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+    return rows
 
 
 @torch.no_grad()
 def run_cell(model, tok, lens: LensSpace, problems: list[Problem], *,
              answer_mode: str, arm: str, band: list[int], k: int,
              max_new_tokens: int, samples_per_problem: int = 1,
-             out_path: str, ablation_seed: int = 0) -> None:
-    """Run one experiment cell, appending JSONL rows; resumable."""
+             out_path: str, ablation_seed: int = 0,
+             lens_id: str = "") -> None:
+    """Run one experiment cell, appending JSONL rows; resumable.
+
+    Resume safety: existing rows' full intervention provenance must match the
+    current invocation exactly — a cell file never mixes semantics.
+    """
+    ref_cfg = AblationConfig(band_layers=band, k=k, seed=ablation_seed,
+                             **ARMS[arm])
+    expected = {
+        "answer_mode": answer_mode, "arm": arm, "band": band, "k": k,
+        "lens_id": lens_id,
+        "ablation_config": {
+            "mode": ref_cfg.mode, "spare": ref_cfg.spare,
+            "select": ref_cfg.select, "projection": ref_cfg.projection,
+            "alpha": ref_cfg.alpha, "renorm": ref_cfg.renorm,
+            "skip_first_positions": ref_cfg.skip_first_positions},
+    }
     done = set()
     if os.path.exists(out_path):
-        with open(out_path) as f:
-            done = {(r["problem_id"], r["sample_idx"])
-                    for r in map(json.loads, f) if r.get("ok")}
+        existing = [r for r in _read_rows_lenient(out_path) if r.get("ok")]
+        for r in existing[:1]:
+            for key, want in expected.items():
+                if r.get(key) != want:
+                    raise ValueError(
+                        f"resume mismatch in {out_path}: row has "
+                        f"{key}={r.get(key)!r}, invocation wants {want!r}. "
+                        f"Delete or rename the file to rerun.")
+        done = {(r["problem_id"], r["sample_idx"]) for r in existing}
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     sampling = SAMPLING["thinking" if answer_mode == "thinking"
                         else "non_thinking"]
@@ -170,15 +214,21 @@ def run_cell(model, tok, lens: LensSpace, problems: list[Problem], *,
                     continue
                 ids = build_prompt(tok, problem, answer_mode).to(model.device)
                 ablator = JSpaceAblator(lens, AblationConfig(
-                    band_layers=band, k=k, seed=ablation_seed,
-                    **ARMS[arm]))
+                    band_layers=band, k=k, seed=ablation_seed, **ARMS[arm]))
+                eos_ids = {tok.eos_token_id}
+                to_id = getattr(tok, "convert_tokens_to_ids", None)
+                endoftext = to_id("<|endoftext|>") if to_id else None
+                if isinstance(endoftext, int) and endoftext >= 0:
+                    eos_ids.add(endoftext)
                 out = generate_with_ablation(
                     model, ids, ablator,
                     max_new_tokens=max_new_tokens,
                     seed=paired_seed(problem.problem_id, s),
-                    eos_token_ids=[tok.eos_token_id],
+                    eos_token_ids=sorted(eos_ids),
                     **sampling)
                 text = tok.decode(out["sequence"])
+                if answer_mode == "direct":
+                    text = DIRECT_PREFILL + text
                 pred = extract_boxed(text)
                 row = {
                     "problem_id": problem.problem_id,
@@ -188,6 +238,9 @@ def run_cell(model, tok, lens: LensSpace, problems: list[Problem], *,
                     "answer_mode": answer_mode,
                     "arm": arm,
                     "band": band, "k": k,
+                    "lens_id": lens_id,
+                    # full intervention provenance, checked on resume
+                    "ablation_config": expected["ablation_config"],
                     "pred": pred,
                     "correct": score_answer(pred, problem),
                     "truncated": not out["hit_eos"]
@@ -236,8 +289,7 @@ def paired_bootstrap(rows_a: list[dict], rows_b: list[dict],
 
 
 def summarize_cell(path: str) -> dict:
-    rows = [json.loads(line) for line in open(path)]
-    ok = [r for r in rows if r.get("ok")]
+    ok = [r for r in _read_rows_lenient(path) if r.get("ok")]
     if not ok:
         return {"n": 0}
     frac = lambda key: sum(r[key] for r in ok) / len(ok)
