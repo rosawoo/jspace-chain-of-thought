@@ -161,9 +161,13 @@ class JSpaceAblator:
         """
         if self.cfg.mode == "none":
             return h
+        with torch.no_grad():  # ablation is never backpropagated through
+            return self._edit_body(h, layer)
+
+    def _edit_body(self, h: torch.Tensor, layer: int) -> torch.Tensor:
         cfg, lens = self.cfg, self.lens
         orig_dtype = h.dtype
-        hf = h.detach().float()  # ablation is never backpropagated through
+        hf = h.detach().float()
         B, P, d = hf.shape
         flat = hf.reshape(B * P, d)  # [N, d]
         N = flat.shape[0]
@@ -181,6 +185,8 @@ class JSpaceAblator:
                     generator=gen).tolist()))
             V = self._fixed_vectors(layer, token_ids, hf.device)  # [k', d]
             V_all = V.unsqueeze(0).expand(N, -1, -1)  # [N, k', d]
+            keep = torch.ones(N, V.shape[0], dtype=torch.bool,
+                              device=hf.device)
             if cfg.spare and self._spare_ids is not None:
                 # spare-match the control arms: zero the rows whose token is
                 # in that position's spare set (harmless under Gram-pinv)
@@ -218,10 +224,12 @@ class JSpaceAblator:
 
         # ---- position skipping (absolute index < skip_first_positions) ----
         abs_pos = (self._position_offset
-                   + torch.arange(P, device=hf.device)).repeat_interleave(1
+                   + torch.arange(P, device=hf.device)
                    ).unsqueeze(0).expand(B, -1).reshape(N)  # [N]
         active = abs_pos >= cfg.skip_first_positions
-        if not fixed_mode and cfg.select == "positive":
+        if fixed_mode:
+            active = active & keep.any(dim=-1)  # all picks spared -> no-op
+        elif cfg.select == "positive":
             active = active & pos_mask.any(dim=-1)
 
         # ---- removal delta ----
@@ -258,8 +266,9 @@ class JSpaceAblator:
         self.stats.positions_ablated += n_active
         if cfg.record_selected and cfg.mode != "random":
             if fixed_mode:
+                per_token = (keep & active.unsqueeze(-1)).sum(0)  # [k']
                 self.stats.selected_counter.update(
-                    {t: n_active for t in token_ids})
+                    {t: int(c) for t, c in zip(token_ids, per_token) if c})
             else:
                 genuine = pos_mask & active.unsqueeze(-1)
                 self.stats.selected_counter.update(
